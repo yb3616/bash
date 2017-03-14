@@ -16,7 +16,7 @@ alias ping='ping -c 4'
 alias grep='grep --color=auto'
 alias sudo='sudo -E'
 #PS1='[\u@\h \W]\$ '
-PS1='\[\e[0;31m\]\u\[\e[m\] \[\e[1;34m\]\W\[\e[m\] \[\e[0;31m\]\$ \[\e[m\]\[\e[m\] '
+PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[1;34m\]\W\[\e[m\] \[\e[0;32m\]\$ \[\e[m\]\[\e[m\] '
 complete -cf sudo
 complete -cf man
 bind '"\e[A": history-search-backward'
